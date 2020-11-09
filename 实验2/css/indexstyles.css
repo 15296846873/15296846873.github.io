@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.head1 {
+    height: 60px;
+
+}
+#nav {
+    float: left;
+}
+#nav li {
+    float: left;
+    line-height: 60px;
+    font-size: 28px;
+    margin-left: 180px;
+}
+#nav li a {
+    color: #ffff
+}
+.body1{
+    width: 900px;
+    height: 550px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+#nav1 {
+    height: 200px;
+    width: 100px;
+    background-color: pink;
+    float: left;
+    margin-top: 28px;
+    padding-left: 10px;
+    padding-top: 50px;
+    margin-left: 10px;
+    
+  
+}
+#nav1 li {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#img_change {
+    float: left;
+    margin-left: 50px;
+}
+#time {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#xiugai {
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+}
+.foot {
+    height:  40px;
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-bottom: 0px;
+    bottom: 0;
+    position: fixed;
+    background-color: #fbfbfb;
+}
+.foot li {
+    float: right;
+    line-height: 40px;
+}
+.foot li a {
+    text-align: center;
+    margin-right: 100px;
+}
