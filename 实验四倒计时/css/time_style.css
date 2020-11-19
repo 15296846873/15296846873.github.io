@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url(../images/body.gif);
+    
+}
+#time {
+    width: 550px;
+    height: 700px;
+  background-image: url(../images/bg.png);
+    margin: 0 auto;
+
+}
+#time h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+#time_input {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+#time_input input {
+   width: 80px;
+   
+}
+#stat_time_btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background-image: url(../images/btn_hover.jpg);
+    margin-left: 200px;
+    margin-top: 100px;
+}
+#time_juli {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+#daojishi {
+    margin-left: 120px;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#daojishi label {
+        color: yellow;
+        font-size: 40px;
+}
+#foot {
+    height:  40px;
+    width: 100%;
+    /* clear: both; */
+    float: left;
+    bottom: 0;
+    position: fixed;
+    background-color: palegoldenrod;
+}
+#foot_li {
+    /* float: left; */
+    width: 600px;
+    background-color: pink;
+    margin: 0 auto;
+    text-align: center;
+}
+#foot li {
+    float: left;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 40px;
+   
+    
+}
