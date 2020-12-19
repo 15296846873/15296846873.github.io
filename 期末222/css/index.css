@@ -1,0 +1,118 @@
+/* 修改container 最大宽度 */
+
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+body {
+   background: url("../image/中国风.jpg") no-repeat;
+   background-size: cover;
+
+}
+li {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+#head_bg {
+    width: 100%;
+}
+#padding_pass {
+    padding-left: 0;
+    padding-right: 0;
+}
+#padding_pass h2 {
+    text-align: center;
+}
+#padding_pass h2 a {
+    
+    color: red;
+    
+}
+/* 去掉左padding */
+header {
+    padding-left: 0 !important;
+}
+.logo img {
+    width: 100%;
+}
+.logo ul li a {
+    font-size: 20px;
+    color: red;
+}
+.logo ul li {
+    
+    margin-top: 2px;
+}
+.logo ul {
+    padding-left: 0;
+}
+.logo ul li:hover {
+    background-color: rosybrown;
+}
+
+#jiaodian {
+    text-align: center;
+    font-size: 26px;
+}
+.logo_jiaodian img {
+     width:100% ;
+}
+.gundon {
+     width:100% ;
+}
+/* #p_box {
+   
+}
+#p_title {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+} */
+
+#news_pg{
+        width: 100%;
+}
+#news_pg1 a {
+    font-size: 20px;
+    color: black;
+}
+
+#foot {
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
+}
+#foot p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.footer {
+    position:fixed; 
+    bottom:0px;
+    left:0px;
+    background-color: pink;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.footer li {
+    float: left;
+    margin-left: 40px;
+    
+}
+.footer li a {
+    color: #333333;
+    font-size: 20px;
+}
+.footer_1 {
+    height: 50px;
+    width: 50%;
+    margin: auto;
+}

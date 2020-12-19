@@ -1,0 +1,39 @@
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+body {
+    background: url("../image/中国风.jpg") no-repeat;
+    background-size: cover;
+ 
+}
+li {
+    list-style: none;
+}
+.head img {
+    width: 100%;
+}
+
+#nav {
+    text-align: center;
+    height: 40px;
+    background-color: peru;
+}
+#nav li {
+  float: left;
+  margin-left: 40px;
+  line-height: 40px;
+}
+#nav li a {
+ font-size: 20px;
+ color: red;
+}
+#nav_1 {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+}
+p {
+    font-size: 18px;
+}

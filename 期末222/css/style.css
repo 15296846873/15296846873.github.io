@@ -1,0 +1,39 @@
+
+#nav {
+    height: 40px;
+    background-color: pink;
+    text-align: center;
+}
+#nav li {
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 250px;
+    list-style: none;
+}
+.table_text {
+    display: block;
+    margin-top: 20px;
+
+}
+#label_box {
+    float: left;
+    text-align: right;
+    width: 90px;
+}
+#input_box {
+    float: left;
+    /* text-align: right; */
+    
+}
+.input_wrap {
+    margin-top: 20px;
+}
+.input_wrap input {
+    width: 250px;
+}
+#btn_box{
+    clear: both;
+    padding-top: 50px;
+    margin-left: 180px;
+}
